@@ -1,0 +1,384 @@
+{
+  "alertDialog": {
+    "title": {
+      "INFORMATION": "INFORMATION",
+      "ERROR": "ERROR",
+      "CONFIRM": "CONFIRM"
+    },
+    "positiveButton": "Yes",
+    "negativeButton": "No"
+  },
+  "AppHeader": {
+    "environment": {
+      "development": "Development",
+      "testing": "Testing",
+      "hotfix": "Hotfix",
+      "staging": "Staging"
+    }
+  },
+  "EditorHeader": {
+    "back": "Back",
+    "data": {
+      "save": "Save",
+      "load": "Open",
+      "undo": "Undo",
+      "redo": "Redo"
+    },
+    "showExcelImport": "Import Excel",
+    "showLocationComparation": "Location Comparison Data Search",
+    "showCsvOutput": "Location CSV Output",
+    "showEditorNote": "Inventory Note",
+    "displayOrder": {
+      "moveToTop": "Top",
+      "moveUp": "Up",
+      "moveDown": "Down",
+      "moveToBottom": "Bottom"
+    },
+    "scale": {
+      "percent50": "50%",
+      "percent100": "100%",
+      "percent150": "150%"
+    },
+    "exclusiveLock": {
+      "lock": "Edit lock",
+      "unlock": "Edit unlock"
+    },
+    "message": {
+      "saveMapData": {
+        "success": "Saved the map."
+      }
+    }
+  },
+  "EditorSideMenu": {
+    "selectionGroup": {
+      "title": "Selection",
+      "selectTool": "selectionTool"
+    },
+    "areaGroup": {
+      "title": "Area",
+      "area": "Area"
+    },
+    "numberedGroup": {
+      "title": "Numbered",
+      "table": "Table",
+      "wall": "Wall",
+      "island": "Island",
+      "gondola": "Gondola",
+      "meshend": "Meshend"
+    },
+    "unnumberedGroup": {
+      "title": "Unnumbered",
+      "pillar": "Pillar",
+      "ellipseText": "EllipseText",
+      "rectText": "RectText",
+      "arrow1": "Arrow1",
+      "arrow2": "Arrow2",
+      "specialShape": "SpecialShape"
+    },
+    "commonGroup": {
+      "title": "Common",
+      "pen": "Pen",
+      "line": "Line",
+      "rect": "Rect",
+      "ellipse": "Ellipse",
+      "polygon": "Polygon",
+      "text": "Text",
+      "circleArrow": "CircleArrow",
+      "otherShapes": "Other Shapes"
+    }
+  },
+  "EditorLayoutTabs": {
+    "information": {
+      "company": "Company: ",
+      "store": "Store: "
+    },
+    "message": {
+      "confirmDeleteData": "Are you sure you want to delete the map data for that layout?\nThis operation cannot be redone.\n\nLayout: {{layoutName}}"
+    },
+    "button": {
+      "copy": "Copy the currently selected layout tab",
+      "add": "Add a layout tab"
+    }
+  },
+  "EditorLocationInfo": {
+    "totalCount": {
+      "open": "Total (",
+      "close": ")"
+    },
+    "countOfAreas": "Area:",
+    "countOfTables": "Table:",
+    "countOfLocations": "Location:",
+    "countOfMissingNumber": "MissingNumber:",
+    "countOfEmptyNumber": "EmptyNumber:",
+    "countOfSelected": "Selected:",
+    "waitingAutoSave": "waiting auto save",
+    "stageCellSize": "Stage W, H(Cell):",
+    "button": {
+      "submitStageCellSize": "Apply",
+      "showLocationList": "LocationList",
+      "printMapPdf": "PDF"
+    }
+  },
+  "EditorLocationItemList": {
+    "title": "Numbered",
+    "search": {
+      "list": {
+        "area": "Area ID",
+        "table": "Table ID",
+        "location": "Location Number",
+        "duplicatedLocation": "Duplicated Location",
+        "areaMismatch": "Area ID Mismatch"
+      },
+      "searchButton": "Search"
+    },
+    "results": "{{length}} results",
+    "button": {
+      "selectAll": "SelectAll",
+      "unSelectAll": "UnselectAll",
+      "clear": "Clear"
+    }
+  },
+  "EditorNoLocationItemList": {
+    "title": "Unnumbered",
+    "results": "{{length}} results",
+    "button": {
+      "selectAll": "SelectAll",
+      "unSelectAll": "UnselectAll"
+    }
+  },
+  "EditorOtherItemList": {
+    "title": "Other",
+    "layer": {
+      "area": "Area",
+      "map": "Map",
+      "locationNote": "LocationNote"
+    }
+  },
+  "EditorItemProperties": {
+    "title": "Properties",
+    "applyButton": "Apply",
+    "property": {
+      "visible": "Visible:",
+      "locationNum": "LocationNum:",
+      "showFullLocationNum": "Full:",
+      "areaId": "AreaId:",
+      "tableId": "TableId:",
+      "branchNum": "BranchNum:",
+      "direction": {
+        "label": "Direction:",
+        "top": "Top",
+        "right": "Right",
+        "bottom": "Bottom",
+        "left": "Left"
+      },
+      "pointerAtBeginning": "pointerAtBeginning",
+      "pointerAtEnding": "pointerAtEnding",
+      "text": "Text:",
+      "fontSize": "FontSize:",
+      "remarks": "Note:",
+      "ignoreLocation": "IgnoreNum:",
+      "ignoreLocationItems": {
+        "unselect": "",
+        "missingNumber": "MissingNum",
+        "emptyNumber": "EmptyNum"
+      },
+      "xy": "x, y:",
+      "radius": {
+        "label": "RadiusX, Y:"
+      },
+      "widthHeight": {
+        "label": "Width, Height:"
+      },
+      "width": "Width:",
+      "widthCellsHeightCells": {
+        "label": "W, H (Cells):"
+      },
+      "depth": "Depth:",
+      "tableTopDepth": "TableTopDepth:",
+      "strokeWidth": "StrokeWidth:",
+      "strokeDash": "dash",
+      "rotation": "Rotation:",
+      "allRotationAnnotation": "For multiple selections, rotate around the center of the selection.",
+      "stroke": "Stroke:",
+      "strokeTransparent": "transparent",
+      "fill": "Fill:",
+      "fillTransparent": "transparent",
+      "alwaysShowAnchorPoint": {
+        "label": "AnchorPoint:",
+        "always": "always"
+      },
+      "flipHorizontal": "Flip Horizontal"
+    }
+  },
+  "EditorOperationLayer": {
+    "message": {
+      "maxSelectionShapes": "Limit the number of selections at a time to {{maxSelectionShapes}}."
+    }
+  },
+  "Pagination": {
+    "results": "{{hits}} / {{totalHits}} results",
+    "firstButton": "<<",
+    "previousButton": "<",
+    "nextButton": ">",
+    "lastButton": ">>",
+    "goToPage": {
+      "label": "Go to page",
+      "button": "Go"
+    },
+    "options": {
+      "pageRecords": {
+        "label": "PageRecords"
+      }
+    }
+  },
+  "MapPdf": {
+    "header": {
+      "companyName": "COMPANY",
+      "storeName": "STORE",
+      "zipCodePrefix": "",
+      "address": "ADDRESS",
+      "telFax": "PHONE / FAX",
+      "inventoryDate": "DATE",
+      "inventoryDateFormat": "YYYY-MM-DD(ddd)",
+      "timeFrame": "TIME FRAME",
+      "layoutName": "LAYOUT"
+    },
+    "footer": {
+      "fixedPhrase1": "As shown in the diagram above, we have carried out an inventory of the products in each region of the store.",
+      "contractor": {
+        "1": "AJIS CO., LTD.",
+        "2": "AJIS HOKKAIDO CO., LTD.",
+        "3": "AJIS SHIKOKU CO., LTD.",
+        "4": "AJIS KYUSHU CO., LTD."
+      },
+      "supervisor": "SUPERVISOR",
+      "fixedPhrase2": "We hereby certify that we have confirmed that all product inventory for sale in our store has been thoroughly checked \nand that we have received the inventory results (physical inventory report, etc.).",
+      "approvedBy": "APPROVED BY"
+    },
+    "note": {
+      "title": "NOTE"
+    }
+  },
+  "ViewerHeader": {
+    "back": "Back",
+    "showEditorNote": "Inventory Note",
+    "showPlanogramCsvUpload": "Planogram CSV Upload",
+    "showProductLocationSearch": "Product Location Search",
+    "showUnknownLocationList": {
+      "available": "Some location does not exist in the map layout.",
+      "notAvailable": "No location not present in map layout."
+    },
+    "scale": {
+      "percent50": "50%",
+      "percent100": "100%",
+      "percent150": "150%"
+    },
+    "inventoryProgress": {
+      "label": "Inventory:"
+    },
+    "latestUpdate": {
+      "nothingData": "Inventory data not available",
+      "format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "countData": "Count Data",
+    "planogramData": "Planogram Data"
+  },
+  "ViewerLayoutTabs": {
+    "information": {
+      "company": "Company: ",
+      "store": "Store: "
+    }
+  },
+  "ViewerLocationInfo": {
+    "viewLocationColorTypes": {
+      "countProgress": "CountProgress",
+      "intensiveCheck": "IntensiveCheck",
+      "sampling": "Sampling",
+      "audit": "Audit",
+      "allProgress": "AllProgress",
+      "productLocation": "ProductLocation"
+    },
+    "viewLocationAggregateDataTypes": {
+      "none": "None",
+      "departmentName": "DepartmentName",
+      "quantity": "Quantity",
+      "employeeNum": "EmployeeNum",
+      "countTime": "CountTime",
+      "editorText": "EditorText"
+    },
+    "totalCount": {
+      "open": "Total (",
+      "close": ")"
+    },
+    "countOfAreas": "Area:",
+    "countOfTables": "Table:",
+    "countOfLocations": "Location:",
+    "countOfMissingNumber": "MissingNumber:",
+    "countOfEmptyNumber": "EmptyNumber:",
+    "button": {
+      "printMapPdf": "PDF"
+    }
+  },
+  "ViewerShapeProperty": {
+    "property": {
+      "locationNum": "LocationNum",
+      "areaId": "AreaId",
+      "tableId": "TableId",
+      "branchNum": "BranchNum",
+      "departmentName": "DepartmentName",
+      "quantity": "Quantity",
+      "employeeNum": "EmployeeNum",
+      "countTime": "CountTime",
+      "editorText": "EditorText",
+      "remarks": "Note",
+      "createdAt": "CreatedAt",
+      "locationStatus": {
+        "label": "Status",
+        "countProgress": {
+          "6": "Counted",
+          "7": "Uncounted",
+          "unspecific": "-"
+        },
+        "intensiveCheckStatus": {
+          "1": "Duplicate location",
+          "2": "Check it out",
+          "5": "Check OK",
+          "6": "Data OK (no problem)",
+          "7": "Waiting",
+          "unspecific": "-"
+        },
+        "samplingStatus": {
+          "3": "Check the location",
+          "5": "Check complete",
+          "unspecific": "-"
+        },
+        "auditStatus": {
+          "4": "Check the location",
+          "5": "Check complete",
+          "unspecific": "-"
+        },
+        "allProgressStatus": {
+          "1": "Duplicate location",
+          "2": "Check it out",
+          "3": "Sampling",
+          "4": "Audit",
+          "5": "Check complete",
+          "6": "Counted",
+          "7": "Uncounted",
+          "unspecific": "-"
+        }
+      }
+    },
+    "planogram": {
+      "showButton": "Show planogram"
+    }
+  },
+  "ViewerLocationSummary": {
+    "property": {
+      "quantity": "Quantity",
+      "countTime": "CountTime",
+      "countOfLocations": "CountOfLocations",
+      "locationNumList": "LocationNum"
+    }
+  }
+}

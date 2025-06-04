@@ -1,0 +1,1092 @@
+{
+  "index": {
+    "serviceWorker": {
+      "updateMessage": "The app has been updated. Are you sure you want to reload the page to migrate to the new version?"
+    }
+  },
+  "PageNotFound": {
+    "title": "Page Not Found",
+    "button": {
+      "back": "Back"
+    }
+  },
+  "MenuWindow": {
+    "search": {
+      "stores": {
+        "label": "Store List"
+      }
+    }
+  },
+  "PersonalWindow": {
+    "button": {
+      "logoutButton": "Logout"
+    }
+  },
+  "Login": {
+    "title": "Jikuu",
+    "environment": {
+      "development": "Development",
+      "testing": "Testing",
+      "hotfix": "Hotfix",
+      "staging": "Staging"
+    },
+    "description": {
+      "role": {
+        "header": "Role",
+        "admin": "ADMIN",
+        "editor": "EDITOR",
+        "viewer": "VIEWER"
+      },
+      "selectButton": {
+        "label": "select"
+      }
+    },
+    "jurisdictionClass": {
+      "placeholder": "jurisdictionClass"
+    },
+    "employeeCode": {
+      "placeholder": "employeeCode"
+    },
+    "loginId": {
+      "placeholder": "LoginId"
+    },
+    "password": {
+      "placeholder": "Password"
+    },
+    "cancelButton": {
+      "label": "Cancel"
+    },
+    "loginButton": {
+      "label": "Login"
+    }
+  },
+  "Reauthentication": {
+    "title": "Reauthentication",
+    "description": "Enter your password and confirm your identity.\nAfter successful identification, resume from the previous operation.",
+    "userName": {
+      "label": "Account"
+    },
+    "password": {
+      "placeholder": "Password"
+    },
+    "cancelButton": {
+      "label": "Logout"
+    },
+    "loginButton": {
+      "label": "Login"
+    }
+  },
+  "Logout": {
+    "logoutButton": {
+      "label": "Logout"
+    }
+  },
+  "StoreSearch": {
+    "title": "Store List",
+    "condition": {
+      "jurisdictionClass": "JurisdictionClass:",
+      "companyCode": "CompanyCode:",
+      "companyName": "Company:",
+      "storeCode": "StoreCode:",
+      "storeName": "Store:",
+      "storeName2": "Store2:",
+      "button": {
+        "search": "search",
+        "clear": "clear"
+      }
+    },
+    "dataTable": {
+      "jurisdictionClass": {
+        "label": "JurisdictionClass"
+      },
+      "companyCode": {
+        "label": "CompanyCode"
+      },
+      "companyName": {
+        "label": "CompanyName"
+      },
+      "storeCode": {
+        "label": "StoreCode"
+      },
+      "storeName": {
+        "label": "StoreName"
+      },
+      "versions": {
+        "label": "Versions"
+      },
+      "latestInventoryDate": {
+        "label": "Date"
+      },
+      "latestInventoryUpdatedAt": {
+        "label": "UpdatedAt"
+      },
+      "latestInventoryUpdatedByName": {
+        "label": "UpdatedByName"
+      },
+      "operation": {
+        "label": "Operation",
+        "select": "View Ver."
+      }
+    }
+  },
+  "MapVersionCreate": {
+    "title": "Map Create",
+    "mapStore": {
+      "jurisdiction": {
+        "label": "Jurisdiction:"
+      },
+      "company": {
+        "label": "Company:"
+      },
+      "store": {
+        "label": "Store:"
+      },
+      "storeAddress": {
+        "label": "Store Address:",
+        "mark": ""
+      },
+      "tel": {
+        "label": "TEL:"
+      },
+      "fax": {
+        "label": "FAX:"
+      }
+    },
+    "inventory": {
+      "zone": {
+        "label": "Zone"
+      },
+      "do": {
+        "label": "DO"
+      },
+      "inventoryDate": {
+        "label": "Inventory Date"
+      },
+      "note": {
+        "label": "Note"
+      }
+    },
+    "command": {
+      "cancel": "Cancel",
+      "save": "Save",
+      "viewEditor": "View Editor"
+    },
+    "message": {
+      "information": {
+        "completed": "Save is completed."
+      }
+    }
+  },
+  "MapVersionCopy": {
+    "title": "Map Version Copy",
+    "metaData": {
+      "source": {
+        "title": "Source",
+        "jurisdictionName": "Jurisdiction:",
+        "companyName": "Company:",
+        "storeName": "Store:",
+        "inventoryDate": {
+          "label": "Inventory Date:",
+          "format": "YYYY-MM-DD"
+        },
+        "zoneName": "Zone:",
+        "doName": "DO:",
+        "version": "Version:"
+      },
+      "destination": {
+        "title": "Destination",
+        "jurisdictionName": "Jurisdiction:",
+        "companyName": "Company:",
+        "storeName": "Store:"
+      }
+    },
+    "command": {
+      "cancel": "Cancel",
+      "submit": "Create"
+    }
+  },
+  "MapVersions": {
+    "title": "Version List",
+    "condition": {
+      "jurisdictionName": "Jurisdiction:",
+      "companyName": "Company:",
+      "storeName": "Store:",
+      "inventoryDate": "InventoryDate:",
+      "linkedSchedule": {
+        "label": "Schedule:",
+        "value": "Linked"
+      },
+      "button": {
+        "search": "search",
+        "clear": "clear"
+      }
+    },
+    "dataTable": {
+      "version": {
+        "label": "Version"
+      },
+      "zoneCode": {
+        "label": "ZoneCode"
+      },
+      "zoneName": {
+        "label": "ZoneName"
+      },
+      "doCode": {
+        "label": "DoCode"
+      },
+      "doName": {
+        "label": "DoName"
+      },
+      "inventoryDate": {
+        "label": "Date",
+        "format": "YYYY-MM-DD"
+      },
+      "note": {
+        "label": "Note"
+      },
+      "updatedById": {
+        "label": "UpdatedById"
+      },
+      "updatedAt": {
+        "label": "UpdatedAt",
+        "format": "YYYY-MM-DD HH:mm:ss"
+      },
+      "operation": {
+        "label": "Operation",
+        "edit": "Edit",
+        "copy": "Copy",
+        "delete": "Delete"
+      }
+    },
+    "command": {
+      "back": "Back",
+      "new": "New"
+    },
+    "message": {
+      "information": {
+        "delete": "Delete is completed."
+      },
+      "confirm": {
+        "delete": "Are you sure you want to delete the map data?\n\nversion: {{version}}"
+      }
+    }
+  },
+  "MapEditor": {
+    "message": {
+      "information": {
+        "exclusiveLock": "\"{{exclusiveByName}}\" is currently being edited and cannot be updated."
+      },
+      "confirm": {
+        "unsavedData": "Previously edited data exists unsaved.\nDo you want to read it?\n\nNote) If you select \"No\", unsaved data will be lost."
+      }
+    }
+  },
+  "MapEditorAddArea": {
+    "title": "Add area",
+    "description": "Please set the area to add.",
+    "areaId": {
+      "label": "Area"
+    },
+    "text": {
+      "label": "Text"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Add"
+    }
+  },
+  "MapEditorAddGondola": {
+    "title": "Add gondola",
+    "description": "Please set the gondola to add.",
+    "settings": {
+      "locationNum": {
+        "label": "LocationNum"
+      },
+      "showFullLocationNum": {
+        "label": "ShowFullLocationNum"
+      },
+      "alignment": {
+        "label": "Alignment",
+        "vertical": "Vertical",
+        "horizontal": "Horizontal"
+      },
+      "widthCells": {
+        "label": "Width",
+        "unit": "cells"
+      },
+      "depthCells": {
+        "label": "Depth",
+        "unit": "cells"
+      }
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Add"
+    }
+  },
+  "MapEditorAddMeshend": {
+    "title": "Add mesh end",
+    "description": "Please set the mesh end to add.",
+    "locationNum": {
+      "label": "LocationNum"
+    },
+    "alignment": {
+      "label": "Alignment",
+      "TOP": "Top",
+      "RIGHT": "Right",
+      "BOTTOM": "Bottom",
+      "LEFT": "Left"
+    },
+    "gondolaWidthCells": {
+      "label": "Width",
+      "unit": "cells"
+    },
+    "gondolaDepthCells": {
+      "label": "Depth",
+      "unit": "cells"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Add"
+    }
+  },
+  "MapEditorAddTable": {
+    "title": "Add table",
+    "description": "Please set the table to add.",
+    "tableEndType": {
+      "BASIC": "Basic",
+      "MESH_END": "MeshEnd"
+    },
+    "numOfSideLocation": {
+      "label": "NumOfSideLocation"
+    },
+    "locationNumInputType": {
+      "label": "LocationNumInputType",
+      "MANUAL": "Manual",
+      "AUTO": "Auto"
+    },
+    "gondolaAlignments": {
+      "label": "GondolaAlignments",
+      "VERTICAL": "Vertical",
+      "HORIZONTAL": "Horizontal"
+    },
+    "numberingRules": {
+      "label": "NumberingRules",
+      "COUNTER_CLOCKWISE": "CounterClockwise",
+      "CLOCKWISE": "Clockwise"
+    },
+    "allViewFullLocationNum": {
+      "label": "AllViewFullLocationNum"
+    },
+    "gondolaWidthCells": {
+      "label": "GondolaWidthCells",
+      "unit": "Cells"
+    },
+    "gondolaDepthCells": {
+      "label": "GondolaDepthCells",
+      "unit": "Cells"
+    },
+    "repeatDirection": {
+      "label": "RepeatDirection",
+      "TOP": "Top",
+      "RIGHT": "Right",
+      "BOTTOM": "Bottom",
+      "LEFT": "Left"
+    },
+    "repeatGapCells": {
+      "label": "RepeatGapCells",
+      "unit": "Cells"
+    },
+    "repeatCount": {
+      "label": "RepeatCount"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Add"
+    }
+  },
+  "MapEditorAddWall": {
+    "title": "Add wall",
+    "description": "Please set the wall to add.",
+    "startingGondola": {
+      "description": "Please select a starting point"
+    },
+    "startLocationNum": {
+      "label": "StartLocationNum",
+      "MANUAL": "Manual",
+      "AUTO": "Auto"
+    },
+    "wallAlignment": {
+      "label": "Alignment"
+    },
+    "allViewFullLocationNum": {
+      "label": "AllViewFullLocationNum"
+    },
+    "gondolaWidthCells": {
+      "label": "GondolaWidth",
+      "unit": "Cells"
+    },
+    "gondolaDepthCells": {
+      "label": "GondolaDepth",
+      "unit": "Cells"
+    },
+    "numOfGondola": {
+      "label": "NumOfGondola"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Add"
+    }
+  },
+  "MapEditorAddIsland": {
+    "title": "Add island",
+    "description": "Please set the island to add.",
+    "circle": {
+      "label": "Circle",
+      "locationNum": {
+        "label": "LocationNum:",
+        "manual": "Manual",
+        "auto": "Auto",
+        "showFull": "ShowFull"
+      },
+      "border": {
+        "label": "Border:",
+        "available": "Available",
+        "notAvailable": "NotAvailable"
+      }
+    },
+    "square": {
+      "label": "Square",
+      "locationNum": {
+        "label": "LocationNum:",
+        "manual": "Manual",
+        "auto": "Auto",
+        "showFull": "ShowFull"
+      },
+      "border": {
+        "label": "Border:",
+        "available": "Available",
+        "notAvailable": "NotAvailable"
+      }
+    },
+    "register": {
+      "label": "Register",
+      "locationNum": {
+        "label": "LocationNum:",
+        "manual": "Manual",
+        "auto": "Auto",
+        "showFull": "ShowFull"
+      },
+      "border": {
+        "label": "Border:",
+        "available": "Available",
+        "notAvailable": "NotAvailable"
+      }
+    },
+    "freeText": {
+      "label": "Free Text",
+      "text": {
+        "label": "Text:"
+      },
+      "locationNum": {
+        "label": "LocationNum:",
+        "manual": "Manual",
+        "auto": "Auto",
+        "showFull": "ShowFull"
+      },
+      "border": {
+        "label": "Border:",
+        "available": "Available",
+        "notAvailable": "NotAvailable"
+      }
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Add"
+    }
+  },
+  "MapEditorAddSpecialShape": {
+    "title": "Add special type",
+    "description": "Please set the special type to add.",
+    "shapes": {
+      "label": "Shapes",
+      "L": "L-Shaped"
+    },
+    "direction": {
+      "label": "Direction",
+      "TOP": "Top",
+      "RIGHT": "Right",
+      "BOTTOM": "Bottom",
+      "LEFT": "Left"
+    },
+    "width": {
+      "label": "Width",
+      "unit": "pixel"
+    },
+    "depth": {
+      "label": "Depth",
+      "unit": "pixel"
+    },
+    "tableTopDepth": {
+      "label": "TableTopDepth",
+      "unit": "pixel"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Add"
+    }
+  },
+  "MapEditorExcelImport": {
+    "title": "Import Excel Map",
+    "description": "Set the Excel file to be imported and the items required for conversion.",
+    "book": {
+      "label": "Book",
+      "selectFile": "SelectFile"
+    },
+    "sheet": {
+      "label": "Sheet"
+    },
+    "cellRange": {
+      "label": "Reading Range",
+      "start": "StartCell:",
+      "end": "EndCell:"
+    },
+    "cellSize": {
+      "label": "CellSize",
+      "width": "Width:",
+      "height": "Height:",
+      "unit": "pixel"
+    },
+    "length": {
+      "label": "Id Length",
+      "tableId": "TableId:",
+      "branchNum": "BranchNum:",
+      "unit": "digit"
+    },
+    "pillar": {
+      "label": "Pillar Color",
+      "representativeCell": "Cell:",
+      "UNSPECIFIED": "Unspecified",
+      "SPECIFIED": "Specified",
+      "description": "(Choice a representative cells by using A1 notation)"
+    },
+    "autoShape": {
+      "label": "AutoShape",
+      "import": "Import:"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Upload"
+    },
+    "message": {
+      "error": {
+        "settingError": "There is an error in the setting contents. \nPlease check the contents and correct the error.",
+        "formatNotSet": "If the number of digits in the table ID + the number of digits in the branch number is more than {{maxLength}} digits, \na custom setting of the location format for displaying is required.",
+        "excelFile": {
+          "notSet": "Please select an Excel file."
+        },
+        "startCell": {
+          "notSet": "Please specify the starting cell."
+        },
+        "endCell": {
+          "notSet": "Please specify the ending cell."
+        },
+        "cellWidth": {
+          "outOfRange": "Specify the cell size (width) in the range {{from}} to {{to}}."
+        },
+        "cellHeight": {
+          "outOfRange": "Specify the cell size (height) in the range {{from}} to {{to}}."
+        },
+        "tableIdLength": {
+          "notZero": "Specify 1 or more for the number of digits of the table ID."
+        },
+        "branchNumLength": {
+          "notZero": "Specify 1 or more for the number of digits in the branch number."
+        }
+      }
+    }
+  },
+  "MapEditorLocationList": {
+    "title": "LocationList",
+    "description": "",
+    "condition": {
+      "areaId": {
+        "label": "AreaId:",
+        "UNSPECIFIED": "Unspecified",
+        "SPECIFIED": "Specified"
+      },
+      "tableId": {
+        "label": "TableId:"
+      },
+      "locationNum": {
+        "label": "LocationNum:"
+      },
+      "showFullLocationNum": {
+        "label": "ShowFullLocationNum:",
+        "NONE": "None",
+        "SHOW": "Enabled",
+        "HIDE": "Disabled"
+      },
+      "text": {
+        "label": "Text:"
+      },
+      "remarks": {
+        "label": "Note:"
+      },
+      "ignoreLocation": {
+        "label": "IgnoreLocation:",
+        "NONE": "None",
+        "MISSING": "Missing",
+        "EMPTY": "Empty"
+      },
+      "changingStatus": {
+        "label": "ChangingStatus:",
+        "NONE": "None",
+        "WAIT": "Wait"
+      },
+      "button": {
+        "search": "Search",
+        "clear": "Clear"
+      }
+    },
+    "dataTable": {
+      "locationNum": {
+        "label": "Location"
+      },
+      "showFullLocationNum": {
+        "label": "ShowFull\nLocation"
+      },
+      "ignoreLocation": {
+        "label": "Ignore\nLocation"
+      },
+      "areaId": {
+        "label": "AreaId"
+      },
+      "tableId": {
+        "label": "TableId"
+      },
+      "branchNum": {
+        "label": "BranchNum"
+      },
+      "text": {
+        "label": "Text"
+      },
+      "fontSize": {
+        "label": "FontSize"
+      },
+      "remarks": {
+        "label": "Note"
+      },
+      "changingStatus": {
+        "label": "Changing\nStatus"
+      }
+    },
+    "operationModes": {
+      "label": "OperationModes:",
+      "VIEW": "View",
+      "EDIT": "Edit"
+    },
+    "results": "{{hits}} of {{total}} results",
+    "totalCount": {
+      "open": "Total (",
+      "close": ") ",
+      "countOfArea": "Area:",
+      "countOfTable": "Table:",
+      "countOfLocation": "Location:",
+      "countOfMissingNumber": "MissingNumber:",
+      "countOfEmptyNumber": "EmptyNumber:"
+    },
+    "bulkUpdate": {
+      "label": "BulkChange",
+      "selectedColumn": "ChangeColumn",
+      "change": "Change"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Apply"
+    },
+    "ignoreLocationItems": {
+      "unselect": "",
+      "missingNumber": "MissingNum",
+      "emptyNumber": "EmptyNum"
+    }
+  },
+  "MapEditorNote": {
+    "title": "Inventory Note",
+    "description": "",
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Apply"
+    }
+  },
+  "MapEditorPreference": {
+    "title": "Preference",
+    "description": "",
+    "stageSize": {
+      "label": "Stage Size",
+      "width": "Width",
+      "height": "Height",
+      "regulationSize": {
+        "label": "Regulation Size",
+        "verySmall": "Very Small (rough: to 100 loc)",
+        "small": "Small (rough: to 300 loc)",
+        "medium": "Medium (rough: to 700 loc)",
+        "large": "Large (rough: to 1000 loc)",
+        "extraLarge": "Extra Large (rough: over 1000 loc)"
+      },
+      "unit": "pixel"
+    },
+    "lattice": {
+      "label": "Lattice",
+      "visible": "Visible",
+      "width": "Width",
+      "height": "Height",
+      "unit": "pixel"
+    },
+    "ruler": {
+      "label": "Ruler",
+      "visible": "Visible"
+    },
+    "guide": {
+      "label": "Guide",
+      "visible": "Visible"
+    },
+    "screenCaptureRange": {
+      "label": "Screen Capture Range",
+      "view": "View",
+      "stage": "Stage"
+    },
+    "printSize": {
+      "label": "Map PDF Paper Size"
+    },
+    "length": {
+      "label": "Id Length",
+      "areaId": "AreaId",
+      "tableId": "TableId",
+      "branchNum": "BranchNum",
+      "unit": "digit"
+    },
+    "locationDisplayFormatType": {
+      "label": "Display Location Format",
+      "standard": "Standard",
+      "custom": "Custom",
+      "format": {
+        "label": "Format:",
+        "value": {
+          "STANDARD": "TableId + BranchNum"
+        }
+      },
+      "button": {
+        "formatSetting": "Setting"
+      }
+    },
+    "defaults": {
+      "label": "Default Value",
+      "fontSize": {
+        "label": "Font Size",
+        "unit": "pixel",
+        "help": "Not applicable to the area"
+      }
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Apply"
+    },
+    "message": {
+      "error": {
+        "formatType": "If the sum of the number of digits of the table ID and the number of digits of the branch number exceeds {{maxLength}} digits, please set a custom format.",
+        "formatNotSet": "Formatting is not set."
+      }
+    }
+  },
+  "MapEditorLocationDisplayFormatSetting": {
+    "title": "Location Number Display Format Setting",
+    "description": "Set the location number for display to {{maxLength}} digits or less.",
+    "selectId": {
+      "description": "Please select the digit position to be used for the display location number in the box below. \nIf you reselect the selected digit position, the selection will be canceled. \nThe number displayed at the bottom of the digit position is the order of use (display) of the selected digit.",
+      "legend": {
+        "tableId": "tableId",
+        "branchNum": "branchNum"
+      }
+    },
+    "caution": {
+      "label": "CAUTION",
+      "description": "When you apply the changes, the application process is executed for all existing locations. \nIf you have a large number of locations, this process may take some time."
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "OK"
+    },
+    "message": {
+      "error": {
+        "maxLength": "The maximum location number for display is {{maxLength}} digits."
+      }
+    }
+  },
+  "MapEditorMapPdfOutput": {
+    "title": "PDF Output",
+    "description": "Confirm the settings for the form to be created and click the Execute button.",
+    "outputMode": {
+      "label": "PDF Output Mode",
+      "inventory": "Inventory",
+      "statementOfDelivery": "Statement of delivery"
+    },
+    "outputHeaderFooter": {
+      "label": "Header and Footer output",
+      "output": "Output"
+    },
+    "rotation": {
+      "label": "Rotation",
+      "right": "Right turn",
+      "left": "Left turn",
+      "none": "None"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Execute"
+    }
+  },
+  "MapEditorLocationCsvOutput": {
+    "title": "CSV Output",
+    "description": "Select the layout of locations to be created.",
+    "selectAll": {
+      "label": "Select all"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Execute"
+    }
+  },
+  "InventoryOperationDateSearch": {
+    "title": "Location Comparison Data Search",
+    "condition": {
+      "jurisdictionClass": "Jurisdiction: ",
+      "companyCode": "Company Code:",
+      "companyName": "Company Name:",
+      "storeCode": "Store Code:",
+      "storeName": "Store Name:",
+      "inventoryDate": "Inventory Date:",
+      "button": {
+        "search": "Search",
+        "clear": "Clear"
+      }
+    },
+    "dataTable": {
+      "jurisdictionClass": {
+        "label": "Jurisdiction Name"
+      },
+      "companyCode": {
+        "label": "Company Code"
+      },
+      "companyName": {
+        "label": "Company Name"
+      },
+      "storeCode": {
+        "label": "Store Code"
+      },
+      "storeName": {
+        "label": "Store Name"
+      },
+      "inventoryDate": {
+        "label": "Inventory Date",
+        "format": "YYYY-MM-DD"
+      },
+      "operation": {
+        "label": "Select"
+      }
+    },
+    "command": {
+      "cancel": "Cancel",
+      "submit": "Select"
+    }
+  },
+  "MapEditorCompareLocationResult": {
+    "title": "Location Compare Results List",
+    "condition": {
+      "title": {
+        "new": "This time",
+        "old": "Last time"
+      },
+      "jurisdictionClass": "Jurisdiction Class:",
+      "companyName": "Company:",
+      "storeName": "Store:",
+      "inventoryDate": {
+        "label": "Inventory Date:",
+        "format": "YYYY-MM-DD"
+      },
+      "locationCount": "Location count:",
+      "discrepancies": "Discrepancies:"
+    },
+    "dataTable": {
+      "rowNum": {
+        "label": "#"
+      },
+      "newAreaId": {
+        "label": "Area"
+      },
+      "newLocationNum": {
+        "label": "Location"
+      },
+      "oldAreaId": {
+        "label": "Last Area"
+      },
+      "oldLocationNum": {
+        "label": "Last Location"
+      }
+    }
+  },
+  "MapViewerPlanogram": {
+    "details": {
+      "dumpNo": "Dump No.",
+      "areaId": "Area",
+      "locationNum": "Location Num",
+      "shelf": "Shelf",
+      "face": "Face",
+      "sku": "SKU",
+      "twoGradeBarcode": "Two Grade Barcode",
+      "productName": "Product Name",
+      "sellingPrice": "Selling Price",
+      "quantity": "Quantity",
+      "facing": "Facing",
+      "department": "Department",
+      "departmentName": "Department Name",
+      "countTime": "Count Time",
+      "employeeCode": "Employee Code",
+      "updatedAt": {
+        "label": "Updated At",
+        "format": "MM-DD-YYYY HH:mm:ss"
+      }
+    },
+    "countData": "Count Data",
+    "planogramData": "Planogram Data"
+  },
+  "MapViewerNote": {
+    "title": "Inventory Note",
+    "description": "",
+    "button": {
+      "close": "Close"
+    }
+  },
+  "MapViewerPlanogramCsvUpload": {
+    "title": "Planogram CSV Upload",
+    "description": "Set the CSV file to be uploaded.",
+    "csv": {
+      "label": "Planogram",
+      "selectFile": "Select File"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submit": "Upload"
+    },
+    "message": {
+      "error": {
+        "invalid": "There is an error in the setting contents. \nPlease check the contents and correct the error.",
+        "uploadFile": {
+          "notSet": "Please select an CSV file."
+        }
+      },
+      "information": {
+        "completed": "Upload is completed."
+      }
+    }
+  },
+  "MapViewerUnknownLocationList": {
+    "title": "List of locations not present in map layout",
+    "dataTable": {
+      "areaId": {
+        "label": "Area"
+      },
+      "locationNum": {
+        "label": "Location"
+      }
+    },
+    "command": {
+      "close": "Close"
+    }
+  },
+  "MapEditorOtherShapeMenu": {
+    "subMenu": {
+      "wc": "WC",
+      "restArea": "Rest Area",
+      "outlet": "Outlet"
+    }
+  },
+  "MapViewerMapPdfOutput": {
+    "title": "PDF Output",
+    "description": "Confirm the settings for the report to be created and click the Execute button.\nPressing the Reset button restores the print settings saved in the editor.",
+    "outputMode": {
+      "label": "PDF Output Mode",
+      "inventory": "Inventory",
+      "statementOfDelivery": "Statement of delivery"
+    },
+    "outputHeaderFooter": {
+      "label": "Header and Footer output",
+      "output": "Output"
+    },
+    "rotation": {
+      "label": "Rotation",
+      "right": "Right turn",
+      "left": "Left turn",
+      "none": "None"
+    },
+    "stageSize": {
+      "label": "Stage Size",
+      "width": "Width",
+      "height": "Height",
+      "regulationSize": {
+        "label": "Regulation Size",
+        "verySmall": "Very Small (rough: to 100 loc)",
+        "small": "Small (rough: to 300 loc)",
+        "medium": "Medium (rough: to 700 loc)",
+        "large": "Large (rough: to 1000 loc)",
+        "extraLarge": "Extra Large (rough: over 1000 loc)"
+      },
+      "unit": "pixel"
+    },
+    "screenCaptureRange": {
+      "label": "Screen Capture Range",
+      "view": "View",
+      "stage": "Stage"
+    },
+    "printSize": {
+      "label": "Map PDF Paper Size"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "reset": "Reset",
+      "submit": "Execute"
+    }
+  },
+  "MapViewerProductLocationSearch": {
+    "title": "Product Location Search",
+    "condition": {
+      "productName": "Product Name",
+      "sku": "SKU",
+      "twoGradeBarcode": "Two Grade Barcode",
+      "button": {
+        "search": "Search",
+        "clear": "Clear"
+      },
+      "message": {
+        "notSet": "Condition are essential to the search."
+      }
+    },
+    "dataTable": {
+      "productName": "Product Name",
+      "sku": "SKU",
+      "twoGradeBarcode": "Two Grade Barcode",
+      "areaId": "Area",
+      "locationNum": "Location",
+      "shelf": "Shelf",
+      "face": "Face",
+      "layoutName": "Layout"
+    },
+    "results": "{{hits}} results",
+    "button": {
+      "searchResultClear": "ClearResult",
+      "close": "Close"
+    },
+    "countData": "Count Data",
+    "planogramData": "Planogram Data"
+  }
+}

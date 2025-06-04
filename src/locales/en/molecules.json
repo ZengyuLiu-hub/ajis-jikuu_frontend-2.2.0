@@ -1,0 +1,10 @@
+{
+  "MainMenu": {
+    "search": {
+      "label": "search"
+    },
+    "editor": {
+      "label": "editor"
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "alertDialog": {
+    "title": {
+      "INFORMATION": "情報",
+      "ERROR": "エラー",
+      "CONFIRM": "確認"
+    },
+    "positiveButton": "はい",
+    "negativeButton": "いいえ"
+  },
+  "AppHeader": {
+    "environment": {
+      "development": "開発環境",
+      "testing": "テスト環境",
+      "hotfix": "ホットフィックス環境",
+      "staging": "ステージング環境"
+    }
+  },
+  "EditorHeader": {
+    "back": "戻る",
+    "data": {
+      "save": "保存",
+      "load": "開く",
+      "undo": "元に戻す",
+      "redo": "やり直し"
+    },
+    "showExcelImport": "Excel取込",
+    "showLocationComparation": "ロケーション比較用データ検索",
+    "showCsvOutput": "ロケーションCSV出力",
+    "showEditorNote": "棚卸メモ",
+    "displayOrder": {
+      "moveToTop": "最前面",
+      "moveUp": "前面",
+      "moveDown": "背面",
+      "moveToBottom": "最背面"
+    },
+    "scale": {
+      "percent50": "50%",
+      "percent100": "100%",
+      "percent150": "150%"
+    },
+    "exclusiveLock": {
+      "lock": "編集ロック取得",
+      "unlock": "編集ロック解除"
+    },
+    "message": {
+      "saveMapData": {
+        "success": "マップを保存しました。"
+      }
+    }
+  },
+  "EditorSideMenu": {
+    "selectionGroup": {
+      "title": "選択ツール",
+      "selectTool": "選択ツール"
+    },
+    "areaGroup": {
+      "title": "エリア設定",
+      "area": "エリア"
+    },
+    "numberedGroup": {
+      "title": "付番あり",
+      "table": "テーブル",
+      "wall": "ウォール",
+      "island": "島",
+      "gondola": "ゴンドラ",
+      "meshend": "網目エンド"
+    },
+    "unnumberedGroup": {
+      "title": "付番なし",
+      "pillar": "柱",
+      "ellipseText": "楕円形テキスト",
+      "rectText": "長方形テキスト",
+      "arrow1": "片矢印",
+      "arrow2": "両矢印",
+      "specialShape": "特殊型"
+    },
+    "commonGroup": {
+      "title": "汎用",
+      "pen": "ペン",
+      "line": "線",
+      "rect": "四角形",
+      "ellipse": "楕円形",
+      "polygon": "多角形",
+      "text": "テキスト",
+      "circleArrow": "回転矢印",
+      "otherShapes": "その他のシェイプ"
+    }
+  },
+  "EditorLayoutTabs": {
+    "information": {
+      "company": "企業: ",
+      "store": "店舗: "
+    },
+    "message": {
+      "confirmDeleteData": "当該フロアのマップデータを削除してもよろしいですか？\nこの操作はやり直せません。\n\nフロア名：{{layoutName}}"
+    },
+    "button": {
+      "copy": "選択中のレイアウトタブを複製します",
+      "add": "レイアウトタブを追加します"
+    }
+  },
+  "EditorLocationInfo": {
+    "totalCount": {
+      "open": "総数（",
+      "close": "）"
+    },
+    "countOfAreas": "エリア:",
+    "countOfTables": "テーブル:",
+    "countOfLocations": "ロケーション:",
+    "countOfMissingNumber": "欠番:",
+    "countOfEmptyNumber": "空白:",
+    "countOfSelected": "選択数:",
+    "waitingAutoSave": "自動保存待ち",
+    "stageCellSize": "ステージ 幅, 高さ(セル):",
+    "button": {
+      "submitStageCellSize": "反映",
+      "showLocationList": "ロケーション一覧",
+      "printMapPdf": "PDF"
+    }
+  },
+  "EditorLocationItemList": {
+    "title": "付番あり",
+    "search": {
+      "list": {
+        "area": "エリアID",
+        "table": "テーブルID",
+        "location": "ロケーション番号",
+        "duplicatedLocation": "重複ロケーション",
+        "areaMismatch": "エリアID 不整合"
+      },
+      "searchButton": "検索"
+    },
+    "results": "{{length}} 件",
+    "button": {
+      "selectAll": "全選択",
+      "unSelectAll": "全解除",
+      "clear": "クリア"
+    }
+  },
+  "EditorNoLocationItemList": {
+    "title": "付番なし",
+    "results": "{{length}} 件",
+    "button": {
+      "selectAll": "全選択",
+      "unSelectAll": "全解除"
+    }
+  },
+  "EditorOtherItemList": {
+    "title": "その他",
+    "layer": {
+      "area": "エリア",
+      "map": "マップ",
+      "locationNote": "ロケーションメモ"
+    }
+  },
+  "EditorItemProperties": {
+    "title": "プロパティ",
+    "applyButton": "変更を反映",
+    "property": {
+      "visible": "表示:",
+      "locationNum": "ロケーション:",
+      "showFullLocationNum": "フル桁表示:",
+      "areaId": "エリア:",
+      "tableId": "テーブル:",
+      "branchNum": "枝番:",
+      "direction": {
+        "label": "向き:",
+        "top": "上",
+        "right": "右",
+        "bottom": "下",
+        "left": "左"
+      },
+      "pointerAtBeginning": "始点矢印:",
+      "pointerAtEnding": "終点矢印:",
+      "text": "テキスト:",
+      "fontSize": "フォントサイズ:",
+      "remarks": "メモ:",
+      "ignoreLocation": "除外:",
+      "ignoreLocationItems": {
+        "unselect": "",
+        "missingNumber": "欠番",
+        "emptyNumber": "空白"
+      },
+      "xy": "x, y:",
+      "radius": {
+        "label": "幅, 高さ(半径):"
+      },
+      "widthHeight": {
+        "label": "幅, 高さ:"
+      },
+      "width": "幅:",
+      "widthCellsHeightCells": {
+        "label": "幅, 高さ(セル):"
+      },
+      "depth": "全体の奥行き:",
+      "tableTopDepth": "天板の奥行き:",
+      "strokeWidth": "線幅:",
+      "strokeDash": "点線",
+      "rotation": "回転:",
+      "allRotationAnnotation": "複数選択の場合は、選択範囲の中心を軸に回転します",
+      "stroke": "線色:",
+      "strokeTransparent": "透過",
+      "fill": "塗り:",
+      "fillTransparent": "透過",
+      "alwaysShowAnchorPoint": {
+        "label": "移動ポイント:",
+        "always": "常に表示"
+      },
+      "flipHorizontal": "左右反転"
+    }
+  },
+  "EditorOperationLayer": {
+    "message": {
+      "maxSelectionShapes": "一度の選択数は {{maxSelectionShapes}} 以内に抑えてください。"
+    }
+  },
+  "Pagination": {
+    "results": "検索結果 {{hits}} / {{totalHits}} 件",
+    "firstButton": "<<",
+    "previousButton": "<",
+    "nextButton": ">",
+    "lastButton": ">>",
+    "goToPage": {
+      "label": "ページ指定",
+      "button": "移動"
+    },
+    "options": {
+      "pageRecords": {
+        "label": "1ページあたりの件数"
+      }
+    }
+  },
+  "MapPdf": {
+    "header": {
+      "companyName": "企業名",
+      "storeName": "店舗名",
+      "zipCodePrefix": "〒",
+      "address": "店舗住所",
+      "telFax": "TEL / FAX",
+      "inventoryDate": "棚卸日",
+      "inventoryDateFormat": "YYYY年MM月DD日(ddd)",
+      "timeFrame": "棚卸開始時間",
+      "layoutName": "レイアウト"
+    },
+    "footer": {
+      "fixedPhrase1": "上記見取り図の通り、店舗内各地域の商品棚卸をもれなく実施いたしました。",
+      "contractor": {
+        "1": "株式会社 エイジス",
+        "2": "エイジス北海道 株式会社",
+        "3": "エイジス四国 株式会社",
+        "4": "エイジス九州 株式会社"
+      },
+      "supervisor": "スーパーバイザー",
+      "fixedPhrase2": "当店舗内のすべての販売用製品在庫がもれなく棚卸された事を確認し、棚卸結果数値(実地棚卸報告書等）を\n受領した事をここに証します。",
+      "approvedBy": "役職 / 氏名"
+    },
+    "note": {
+      "title": "棚卸メモ"
+    }
+  },
+  "ViewerHeader": {
+    "back": "戻る",
+    "showEditorNote": "棚卸メモ",
+    "showPlanogramCsvUpload": "棚割データ CSV 取込",
+    "showProductLocationSearch": "商品ロケーション検索",
+    "showUnknownLocationList": {
+      "available": "レイアウトマップに存在しないロケーションあり",
+      "notAvailable": "レイアウトマップに存在しないロケーションなし"
+    },
+    "scale": {
+      "percent50": "50%",
+      "percent100": "100%",
+      "percent150": "150%"
+    },
+    "inventoryProgress": {
+      "label": "棚卸進捗率:"
+    },
+    "latestUpdate": {
+      "nothingData": "棚卸データなし",
+      "format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "countData": "カウントデータ",
+    "planogramData": "棚割データ"
+  },
+  "ViewerLayoutTabs": {
+    "information": {
+      "company": "企業: ",
+      "store": "店舗: "
+    }
+  },
+  "ViewerLocationInfo": {
+    "viewLocationColorTypes": {
+      "countProgress": "カウント進捗",
+      "intensiveCheck": "集中チェック",
+      "sampling": "サンプリング",
+      "audit": "オーディット",
+      "allProgress": "全体進捗",
+      "productLocation": "商品ロケーション"
+    },
+    "viewLocationAggregateDataTypes": {
+      "none": "なし",
+      "departmentName": "部門名",
+      "quantity": "数量",
+      "employeeNum": "社員番号",
+      "countTime": "カウント時間",
+      "editorText": "エディタテキスト"
+    },
+    "totalCount": {
+      "open": "総数（",
+      "close": "）"
+    },
+    "countOfAreas": "エリア:",
+    "countOfTables": "テーブル:",
+    "countOfLocations": "ロケーション:",
+    "countOfMissingNumber": "欠番:",
+    "countOfEmptyNumber": "空白:",
+    "button": {
+      "printMapPdf": "PDF"
+    }
+  },
+  "ViewerShapeProperty": {
+    "property": {
+      "locationNum": "ロケーション番号",
+      "areaId": "エリアID",
+      "tableId": "テーブルID",
+      "branchNum": "枝番",
+      "departmentName": "部門名",
+      "quantity": "数量",
+      "employeeNum": "社員番号",
+      "countTime": "カウント時間",
+      "editorText": "エディタテキスト",
+      "remarks": "メモ",
+      "createdAt": "連携データ作成日時",
+      "locationStatus": {
+        "label": "ステータス",
+        "countProgress": {
+          "6": "カウント済み",
+          "7": "未カウント",
+          "unspecific": "−"
+        },
+        "intensiveCheckStatus": {
+          "1": "ロケ重複",
+          "2": "要チェック",
+          "5": "チェック OK",
+          "6": "データ OK (問題無し)",
+          "7": "実施前",
+          "unspecific": "−"
+        },
+        "samplingStatus": {
+          "3": "指定ロケーション",
+          "5": "チェック完了",
+          "unspecific": "−"
+        },
+        "auditStatus": {
+          "4": "指定ロケーション",
+          "5": "チェック完了",
+          "unspecific": "−"
+        },
+        "allProgressStatus": {
+          "1": "ロケ重複",
+          "2": "要チェック",
+          "3": "サンプリング",
+          "4": "オーディット",
+          "5": "チェック完了",
+          "6": "カウント済み",
+          "7": "未カウント",
+          "unspecific": "−"
+        }
+      }
+    },
+    "planogram": {
+      "showButton": "棚割を表示"
+    }
+  },
+  "ViewerLocationSummary": {
+    "property": {
+      "quantity": "数量",
+      "countTime": "カウント時間",
+      "countOfLocations": "ロケーション数",
+      "locationNumList": "ロケーション番号"
+    }
+  }
+}

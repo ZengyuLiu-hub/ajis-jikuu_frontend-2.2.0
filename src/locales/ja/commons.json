@@ -1,0 +1,8 @@
+{
+  "enums": {
+    "MapStatus": {
+      "EDITING": "編集中",
+      "UPDATED": "更新済み"
+    }
+  }
+}

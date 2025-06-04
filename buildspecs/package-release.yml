@@ -1,0 +1,45 @@
+version: 0.2
+
+env:
+  git-credential-helper: yes
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 22
+    commands:
+      - echo Install packages...
+      - wget https://github.com/git-lfs/git-lfs/releases/download/v3.5.1/git-lfs-linux-amd64-v3.5.1.tar.gz
+      - tar xf git-lfs-linux-amd64-v3.5.1.tar.gz
+      - bash ./git-lfs-3.5.1/install.sh
+      - git lfs install
+      - rm -fr git-lfs-linux-amd64-v3.5.1.tar.gz ./git-lfs-3.5.1
+      - npm install -g npm@10.8.2 typescript
+      - node -v
+      - npm -v
+      - npm ls -g typescript
+      - git --version
+      - git-lfs --version
+
+  pre_build:
+    commands:
+      - git-lfs pull
+      - npm install
+
+  build:
+    commands:
+      - echo Build started on `date`
+      - git describe --all
+      - npm run test
+      - npm run build
+
+  post_build:
+    commands:
+      - aws s3 rm s3://${ARTIFACT_BUCKET}/${ARTIFACT_PATH} --recursive
+      - echo Build completed on `date`
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'build'
+  discard-paths: no

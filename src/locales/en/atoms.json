@@ -1,0 +1,7 @@
+{
+  "DatePicker": {
+    "dateFormatCalendar": "MM/yyyy",
+    "dateFormat": "yyyy-MM-dd",
+    "todayButton": "Today"
+  }
+}

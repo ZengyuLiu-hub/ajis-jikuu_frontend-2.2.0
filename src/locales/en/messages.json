@@ -1,0 +1,34 @@
+{
+  "information": {
+    "fileLoad": "{{param1}}\n\nLoading files.\nCan I？",
+    "fileLoadComplete": "Loading files complete."
+  },
+  "warning": {},
+  "error": {
+    "HTTP401": {
+      "authenticationFailed": "Authentication failed.",
+      "accessTokenExpired": "Access token has expired at unix time.\nPlease login again."
+    },
+    "HTTP403": {
+      "permissionFailed": "Not authorized."
+    },
+    "HTTP500": {
+      "systemError": "An unexpected error has occurred. \nPlease contact the administrator."
+    },
+    "HTTP502": {
+      "badGateway": "Communication with the server failed. \nIf this occurs repeatedly, please contact the administrator."
+    },
+    "HTTP503": {
+      "serviceUnavailable": "Server is currently unavailable."
+    },
+    "HTTP504": {
+      "gatewayTimeout": "The server did not accept the request within the hour. \nThere may be temporary access congestion. \nPlease try executing again after a while."
+    },
+    "timeout": "Server communication timed out.",
+    "connectionRefused": "Server connection refused.",
+    "requiredMessage": "{{fieldName}} is required.",
+    "pageNotFound": "{{path}} does not exist page.",
+    "dataNotFound": "Data not found.",
+    "accessDenied": "You don't have permission to access it."
+  }
+}

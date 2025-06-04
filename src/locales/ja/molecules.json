@@ -1,0 +1,10 @@
+{
+  "MainMenu": {
+    "search": {
+      "label": "検索"
+    },
+    "editor": {
+      "label": "エディタ"
+    }
+  }
+}

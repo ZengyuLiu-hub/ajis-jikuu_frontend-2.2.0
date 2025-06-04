@@ -1,0 +1,83 @@
+import { RGBA } from '../types';
+
+// ビューアロケーション背景色（白）
+export const VIEWER_LOCATION_FILL_RGB_WHITE: RGBA = {
+  r: 255,
+  g: 255,
+  b: 255,
+  a: 1,
+};
+export const VIEWER_LOCATION_FILL_WHITE = `rgba(${VIEWER_LOCATION_FILL_RGB_WHITE.r}, ${VIEWER_LOCATION_FILL_RGB_WHITE.g}, ${VIEWER_LOCATION_FILL_RGB_WHITE.b}, ${VIEWER_LOCATION_FILL_RGB_WHITE.a})`;
+
+// ビューアロケーション背景色（緑）
+export const VIEWER_LOCATION_FILL_RGB_GREEN: RGBA = {
+  r: 142,
+  g: 194,
+  b: 152,
+  a: 1,
+};
+export const VIEWER_LOCATION_FILL_GREEN = `rgba(${VIEWER_LOCATION_FILL_RGB_GREEN.r}, ${VIEWER_LOCATION_FILL_RGB_GREEN.g}, ${VIEWER_LOCATION_FILL_RGB_GREEN.b}, ${VIEWER_LOCATION_FILL_RGB_GREEN.a})`;
+
+// ビューアロケーション背景色（赤）
+export const VIEWER_LOCATION_FILL_RGB_RED: RGBA = {
+  r: 255,
+  g: 75,
+  b: 0,
+  a: 1,
+};
+export const VIEWER_LOCATION_FILL_RED = `rgba(${VIEWER_LOCATION_FILL_RGB_RED.r}, ${VIEWER_LOCATION_FILL_RGB_RED.g}, ${VIEWER_LOCATION_FILL_RGB_RED.b}, ${VIEWER_LOCATION_FILL_RGB_RED.a})`;
+
+// ビューアロケーション背景色（橙）
+export const VIEWER_LOCATION_FILL_RGB_ORANGE: RGBA = {
+  r: 238,
+  g: 160,
+  b: 87,
+  a: 1,
+};
+export const VIEWER_LOCATION_FILL_ORANGE = `rgba(${VIEWER_LOCATION_FILL_RGB_ORANGE.r}, ${VIEWER_LOCATION_FILL_RGB_ORANGE.g}, ${VIEWER_LOCATION_FILL_RGB_ORANGE.b}, ${VIEWER_LOCATION_FILL_RGB_ORANGE.a})`;
+
+// ビューアロケーション背景色（黄）
+export const VIEWER_LOCATION_FILL_RGB_YELLOW: RGBA = {
+  r: 254,
+  g: 242,
+  b: 99,
+  a: 1,
+};
+export const VIEWER_LOCATION_FILL_YELLOW = `rgba(${VIEWER_LOCATION_FILL_RGB_YELLOW.r}, ${VIEWER_LOCATION_FILL_RGB_YELLOW.g}, ${VIEWER_LOCATION_FILL_RGB_YELLOW.b}, ${VIEWER_LOCATION_FILL_RGB_YELLOW.a})`;
+
+// ビューアロケーション背景色（青）
+export const VIEWER_LOCATION_FILL_RGB_BLUE: RGBA = {
+  r: 156,
+  g: 197,
+  b: 230,
+  a: 1,
+};
+export const VIEWER_LOCATION_FILL_BLUE = `rgba(${VIEWER_LOCATION_FILL_RGB_BLUE.r}, ${VIEWER_LOCATION_FILL_RGB_BLUE.g}, ${VIEWER_LOCATION_FILL_RGB_BLUE.b}, ${VIEWER_LOCATION_FILL_RGB_BLUE.a})`;
+
+// ビューアロケーション背景色（水色）
+export const VIEWER_LOCATION_FILL_RGB_LIGHT_BLUE: RGBA = {
+  r: 211,
+  g: 237,
+  b: 251,
+  a: 1,
+};
+export const VIEWER_LOCATION_FILL_LIGHT_BLUE = `rgba(${VIEWER_LOCATION_FILL_RGB_LIGHT_BLUE.r}, ${VIEWER_LOCATION_FILL_RGB_LIGHT_BLUE.g}, ${VIEWER_LOCATION_FILL_RGB_LIGHT_BLUE.b}, ${VIEWER_LOCATION_FILL_RGB_LIGHT_BLUE.a})`;
+
+// 商品ロケーション検索結果背景色（黄緑）
+export const VIEWER_LOCATION_FILL_RGB_YELLOW_GREEN: RGBA = {
+  r: 204,
+  g: 235,
+  b: 25,
+  a: 1,
+};
+export const VIEWER_LOCATION_FILL_YELLOW_GREEN = `rgba(${VIEWER_LOCATION_FILL_RGB_YELLOW_GREEN.r}, ${VIEWER_LOCATION_FILL_RGB_YELLOW_GREEN.g}, ${VIEWER_LOCATION_FILL_RGB_YELLOW_GREEN.b}, ${VIEWER_LOCATION_FILL_RGB_YELLOW_GREEN.a})`;
+
+// シェイププロパティ名（動的追加）
+export const SHAPE_PROP_NAME_DEPARTMENT_NAME = 'departmentName';
+export const SHAPE_PROP_NAME_QUANTITY = 'quantity';
+export const SHAPE_PROP_NAME_EMPLOYEE_NUM = 'employeeCode';
+export const SHAPE_PROP_NAME_COUNT_TIME = 'countTime';
+export const SHAPE_PROP_NAME_EDITOR_TEXT = 'editorText';
+
+// 日時フォーマット
+export const DATE_TIME_FORMAT_COUNT_TIME = 'HH:mm:ss';

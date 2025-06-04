@@ -1,0 +1,1114 @@
+{
+  "CompanySearch": {
+    "title": "企業一覧",
+    "condition": {
+      "companyCode": "企業コード:",
+      "companyName": "企業名:",
+      "button": {
+        "search": "検索",
+        "clear": "条件クリア"
+      }
+    },
+    "dataTable": {
+      "jurisdictionClass": {
+        "label": "管轄区分"
+      },
+      "companyCode": {
+        "label": "企業コード"
+      },
+      "companyName": {
+        "label": "企業名"
+      }
+    }
+  },
+  "index": {
+    "serviceWorker": {
+      "updateMessage": "アプリケーションが更新されました。新しいバージョンへ移行するため、ページをリロードしてもよろしいですか？"
+    }
+  },
+  "PageNotFound": {
+    "title": "ページが存在しません",
+    "button": {
+      "back": "戻る"
+    }
+  },
+  "MenuWindow": {
+    "search": {
+      "stores": {
+        "label": "店舗一覧"
+      },
+      "companies": {
+        "label": "企業一覧"
+      }
+    }
+  },
+  "PersonalWindow": {
+    "button": {
+      "logoutButton": "ログアウト"
+    }
+  },
+  "Login": {
+    "title": "時空",
+    "environment": {
+      "development": "開発環境",
+      "testing": "テスト環境",
+      "hotfix": "ホットフィックス環境",
+      "staging": "ステージング環境"
+    },
+    "description": {
+      "role": {
+        "header": "役割",
+        "admin": "管理者",
+        "editor": "編集者",
+        "viewer": "閲覧者"
+      },
+      "selectButton": {
+        "label": "選択"
+      }
+    },
+    "jurisdictionClass": {
+      "placeholder": "管轄区分"
+    },
+    "employeeCode": {
+      "placeholder": "社員コード"
+    },
+    "loginId": {
+      "placeholder": "ログインID"
+    },
+    "password": {
+      "placeholder": "パスワード"
+    },
+    "loginButton": {
+      "label": "ログイン"
+    }
+  },
+  "Reauthentication": {
+    "title": "再認証",
+    "description": "パスワードを入力し、本人確認を行ってください。\n本人確認の成功後、直前の操作から再開してください。",
+    "userName": {
+      "label": "アカウント"
+    },
+    "password": {
+      "placeholder": "パスワード"
+    },
+    "cancelButton": {
+      "label": "ログアウト"
+    },
+    "loginButton": {
+      "label": "ログイン"
+    }
+  },
+  "Logout": {
+    "logoutButton": {
+      "label": "ログアウト"
+    }
+  },
+  "StoreSearch": {
+    "title": "店舗一覧",
+    "condition": {
+      "jurisdictionClass": "管轄:",
+      "companyCode": "企業コード:",
+      "companyName": "企業名:",
+      "storeCode": "店舗コード:",
+      "storeName": "店舗名:",
+      "storeName2": "店舗名2:",
+      "button": {
+        "search": "検索",
+        "clear": "条件クリア"
+      }
+    },
+    "dataTable": {
+      "jurisdictionClass": {
+        "label": "管轄区分"
+      },
+      "companyCode": {
+        "label": "企業コード"
+      },
+      "companyName": {
+        "label": "企業名"
+      },
+      "storeCode": {
+        "label": "店舗コード"
+      },
+      "storeName": {
+        "label": "店舗名"
+      },
+      "versions": {
+        "label": "版数"
+      },
+      "latestInventoryDate": {
+        "label": "最新棚卸\n作業実施日"
+      },
+      "latestInventoryUpdatedAt": {
+        "label": "最新棚卸\n更新日時"
+      },
+      "latestInventoryUpdatedByName": {
+        "label": "最新棚卸\n更新者"
+      },
+      "operation": {
+        "label": "操作",
+        "select": "版数表示"
+      }
+    }
+  },
+  "MapVersionCreate": {
+    "title": "マップ作成",
+    "mapStore": {
+      "jurisdiction": {
+        "label": "管轄:"
+      },
+      "company": {
+        "label": "企業:"
+      },
+      "store": {
+        "label": "店舗:"
+      },
+      "storeAddress": {
+        "label": "店舗住所:",
+        "mark": "〒"
+      },
+      "tel": {
+        "label": "TEL:"
+      },
+      "fax": {
+        "label": "FAX:"
+      }
+    },
+    "inventory": {
+      "zone": {
+        "label": "ゾーン"
+      },
+      "do": {
+        "label": "DO"
+      },
+      "inventoryDate": {
+        "label": "棚卸日"
+      },
+      "note": {
+        "label": "メモ"
+      }
+    },
+    "command": {
+      "cancel": "キャンセル",
+      "save": "保存",
+      "viewEditor": "エディタ表示"
+    },
+    "message": {
+      "information": {
+        "completed": "保存しました。"
+      }
+    }
+  },
+  "MapVersionCopy": {
+    "title": "マップコピー",
+    "metaData": {
+      "source": {
+        "title": "コピー元",
+        "jurisdictionName": "管轄区分:",
+        "companyName": "企業:",
+        "storeName": "店舗:",
+        "inventoryDate": {
+          "label": "棚卸日:",
+          "format": "YYYY-MM-DD"
+        },
+        "zoneName": "ゾーン:",
+        "doName": "DO:",
+        "version": "版:"
+      },
+      "destination": {
+        "title": "コピー先",
+        "jurisdictionName": "管轄区分:",
+        "companyName": "企業:",
+        "storeName": "店舗:"
+      }
+    },
+    "command": {
+      "cancel": "キャンセル",
+      "submit": "作成"
+    }
+  },
+  "MapVersions": {
+    "title": "版数一覧",
+    "condition": {
+      "jurisdictionName": "管轄:",
+      "companyName": "企業:",
+      "storeName": "店舗:",
+      "inventoryDate": "棚卸日:",
+      "linkedSchedule": {
+        "label": "スケジュール:",
+        "value": "連携済み"
+      },
+      "button": {
+        "search": "検索",
+        "clear": "条件クリア"
+      }
+    },
+    "dataTable": {
+      "version": {
+        "label": "版"
+      },
+      "zoneCode": {
+        "label": "ゾーンコード"
+      },
+      "zoneName": {
+        "label": "ゾーン名"
+      },
+      "doCode": {
+        "label": "DO コード"
+      },
+      "doName": {
+        "label": "DO 名"
+      },
+      "inventoryDate": {
+        "label": "棚卸日",
+        "format": "YYYY-MM-DD"
+      },
+      "note": {
+        "label": "メモ"
+      },
+      "updatedById": {
+        "label": "更新者"
+      },
+      "updatedAt": {
+        "label": "更新日時",
+        "format": "YYYY-MM-DD HH:mm:ss"
+      },
+      "operation": {
+        "label": "操作",
+        "edit": "編集",
+        "copy": "コピー",
+        "delete": "削除"
+      }
+    },
+    "command": {
+      "back": "戻る",
+      "new": "新規作成"
+    },
+    "message": {
+      "information": {
+        "delete": "削除しました。"
+      },
+      "confirm": {
+        "delete": "マップデータを削除してもよろしいですか？\nこの操作はやり直せません。\n\n版：{{version}}"
+      }
+    }
+  },
+  "MapEditor": {
+    "message": {
+      "information": {
+        "exclusiveLock": "現在「{{exclusiveByName}}」が編集中の為、更新できません。"
+      },
+      "confirm": {
+        "unsavedData": "以前の編集データが未保存で存在します。\n読み込みますか？\n\n注意）「いいえ」を選択した場合、未保存のデータは失われます。"
+      }
+    }
+  },
+  "MapEditorAddArea": {
+    "title": "エリアを追加",
+    "description": "追加するエリアを設定してください。",
+    "areaId": {
+      "label": "エリア"
+    },
+    "text": {
+      "label": "テキスト"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "作成"
+    }
+  },
+  "MapEditorAddGondola": {
+    "title": "ゴンドラを追加",
+    "description": "追加するゴンドラを設定してください。",
+    "settings": {
+      "locationNum": {
+        "label": "ロケーション番号"
+      },
+      "showFullLocationNum": {
+        "label": "フル桁表示"
+      },
+      "alignment": {
+        "label": "向き",
+        "vertical": "縦方向",
+        "horizontal": "横方向"
+      },
+      "widthCells": {
+        "label": "ゴンドラの幅",
+        "unit": "セル"
+      },
+      "depthCells": {
+        "label": "ゴンドラの奥行き",
+        "unit": "セル"
+      }
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "作成"
+    }
+  },
+  "MapEditorAddMeshend": {
+    "title": "網目エンドを追加",
+    "description": "追加する網目エンドを設定してください。",
+    "locationNum": {
+      "label": "ロケーション番号"
+    },
+    "alignment": {
+      "label": "向き",
+      "TOP": "上",
+      "RIGHT": "右",
+      "BOTTOM": "下",
+      "LEFT": "左"
+    },
+    "gondolaWidthCells": {
+      "label": "ゴンドラの幅",
+      "unit": "セル"
+    },
+    "gondolaDepthCells": {
+      "label": "ゴンドラの奥行き",
+      "unit": "セル"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "作成"
+    }
+  },
+  "MapEditorAddTable": {
+    "title": "テーブルを追加",
+    "description": "追加するテーブルを設定してください。",
+    "tableEndType": {
+      "BASIC": "起点を選択",
+      "MESH_END": "エンドを変更"
+    },
+    "numOfSideLocation": {
+      "label": "サイドロケーション数"
+    },
+    "locationNumInputType": {
+      "label": "エンドロケーション番号",
+      "MANUAL": "指定",
+      "AUTO": "自動"
+    },
+    "gondolaAlignments": {
+      "label": "向き",
+      "VERTICAL": "縦方向",
+      "HORIZONTAL": "横方向"
+    },
+    "numberingRules": {
+      "label": "ナンバリングルール",
+      "COUNTER_CLOCKWISE": "反時計回り",
+      "CLOCKWISE": "時計回り"
+    },
+    "allViewFullLocationNum": {
+      "label": "全フル桁表示"
+    },
+    "gondolaWidthCells": {
+      "label": "ゴンドラの幅",
+      "unit": "セル"
+    },
+    "gondolaDepthCells": {
+      "label": "ゴンドラの奥行き",
+      "unit": "セル"
+    },
+    "repeatDirection": {
+      "label": "繰返し向き",
+      "TOP": "上",
+      "RIGHT": "右",
+      "BOTTOM": "下",
+      "LEFT": "左"
+    },
+    "repeatGapCells": {
+      "label": "繰返し間隔",
+      "unit": "セル"
+    },
+    "repeatCount": {
+      "label": "繰返し回数"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "作成"
+    }
+  },
+  "MapEditorAddWall": {
+    "title": "ウォールを追加",
+    "description": "追加するウォールを設定してください。",
+    "startingGondola": {
+      "description": "起点を選択してください"
+    },
+    "startLocationNum": {
+      "label": "開始ロケーション番号",
+      "MANUAL": "指定",
+      "AUTO": "自動"
+    },
+    "wallAlignment": {
+      "label": "向き"
+    },
+    "allViewFullLocationNum": {
+      "label": "全フル桁表示"
+    },
+    "gondolaWidthCells": {
+      "label": "ゴンドラの幅",
+      "unit": "セル"
+    },
+    "gondolaDepthCells": {
+      "label": "ゴンドラの奥行き",
+      "unit": "セル"
+    },
+    "numOfGondola": {
+      "label": "ゴンドラ数"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "作成"
+    }
+  },
+  "MapEditorAddIsland": {
+    "title": "島を追加",
+    "description": "追加する島を設定してください。",
+    "circle": {
+      "label": "丸",
+      "locationNum": {
+        "label": "ロケーション番号：",
+        "manual": "指定",
+        "auto": "自動",
+        "showFull": "フル桁表示"
+      },
+      "border": {
+        "label": "枠線：",
+        "available": "有り",
+        "notAvailable": "無し"
+      }
+    },
+    "square": {
+      "label": "四角",
+      "locationNum": {
+        "label": "ロケーション番号：",
+        "manual": "指定",
+        "auto": "自動",
+        "showFull": "フル桁表示"
+      },
+      "border": {
+        "label": "枠線：",
+        "available": "有り",
+        "notAvailable": "無し"
+      }
+    },
+    "register": {
+      "label": "レジ",
+      "locationNum": {
+        "label": "ロケーション番号：",
+        "manual": "指定",
+        "auto": "自動",
+        "showFull": "フル桁表示"
+      },
+      "border": {
+        "label": "枠線：",
+        "available": "有り",
+        "notAvailable": "無し"
+      }
+    },
+    "freeText": {
+      "label": "フリーテキスト",
+      "text": {
+        "label": "テキスト："
+      },
+      "locationNum": {
+        "label": "ロケーション番号：",
+        "manual": "指定",
+        "auto": "自動",
+        "showFull": "フル桁表示"
+      },
+      "border": {
+        "label": "枠線：",
+        "available": "有り",
+        "notAvailable": "無し"
+      }
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "作成"
+    }
+  },
+  "MapEditorAddSpecialShape": {
+    "title": "特殊型を追加",
+    "description": "追加する特殊型を設定してください。",
+    "shapes": {
+      "label": "形",
+      "L": "L字"
+    },
+    "direction": {
+      "label": "向き",
+      "TOP": "上",
+      "RIGHT": "右",
+      "BOTTOM": "下",
+      "LEFT": "左"
+    },
+    "width": {
+      "label": "全体の幅",
+      "unit": "ピクセル"
+    },
+    "depth": {
+      "label": "全体の奥行き",
+      "unit": "ピクセル"
+    },
+    "tableTopDepth": {
+      "label": "天板の奥行き",
+      "unit": "ピクセル"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "作成"
+    }
+  },
+  "MapEditorExcelImport": {
+    "title": "Excel マップ取込",
+    "description": "取り込み対象 Excel ファイルと変換に必要な項目を設定してください。",
+    "book": {
+      "label": "ブック",
+      "selectFile": "ファイル選択"
+    },
+    "sheet": {
+      "label": "シート"
+    },
+    "cellRange": {
+      "label": "読取り範囲",
+      "start": "開始セル:",
+      "end": "終了セル:"
+    },
+    "cellSize": {
+      "label": "セルサイズ",
+      "width": "幅:",
+      "height": "高さ:",
+      "unit": "ピクセル"
+    },
+    "length": {
+      "label": "桁数",
+      "tableId": "テーブルID:",
+      "branchNum": "枝番:",
+      "unit": "桁"
+    },
+    "pillar": {
+      "label": "柱の色",
+      "representativeCell": "柱の位置:",
+      "UNSPECIFIED": "指定なし",
+      "SPECIFIED": "指定",
+      "description": "(代表的な柱のセルを１つ、A1 形式で指定してください)"
+    },
+    "autoShape": {
+      "label": "オートシェイプ",
+      "import": "取込有無:"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "アップロード"
+    },
+    "message": {
+      "error": {
+        "settingError": "設定内容に誤りがあります。\n内容を確認し、誤りを解消してください。",
+        "formatNotSet": "テーブルIDの桁数＋枝番の桁数が {{maxLength}} 桁以上となる場合は、\n表示用ロケーション書式のカスタム設定が必要です。",
+        "excelFile": {
+          "notSet": "Excel ファイルを選択してください。"
+        },
+        "startCell": {
+          "notSet": "開始セルを指定してください。"
+        },
+        "endCell": {
+          "notSet": "終了セルを指定してください。"
+        },
+        "cellWidth": {
+          "outOfRange": "セルサイズ（幅）は {{from}} 〜 {{to}} の範囲で指定してください。"
+        },
+        "cellHeight": {
+          "outOfRange": "セルサイズ（高さ）は {{from}} 〜 {{to}} の範囲で指定してください。"
+        },
+        "tableIdLength": {
+          "notZero": "テーブル ID の桁数には 1 以上を指定してください。"
+        },
+        "branchNumLength": {
+          "notZero": "枝番の桁数には 1 以上を指定してください。"
+        }
+      }
+    }
+  },
+  "MapEditorLocationList": {
+    "title": "ロケーション一覧",
+    "description": "",
+    "condition": {
+      "areaId": {
+        "label": "エリア:",
+        "UNSPECIFIED": "指定なし",
+        "SPECIFIED": "指定"
+      },
+      "tableId": {
+        "label": "テーブル:"
+      },
+      "locationNum": {
+        "label": "ロケーション:"
+      },
+      "showFullLocationNum": {
+        "label": "フル桁:",
+        "NONE": "指定なし",
+        "SHOW": "有効",
+        "HIDE": "無効"
+      },
+      "text": {
+        "label": "テキスト:"
+      },
+      "remarks": {
+        "label": "メモ:"
+      },
+      "ignoreLocation": {
+        "label": "除外:",
+        "NONE": "指定なし",
+        "MISSING": "欠番",
+        "EMPTY": "空白"
+      },
+      "changingStatus": {
+        "label": "状態:",
+        "NONE": "指定なし",
+        "WAIT": "反映待ち"
+      },
+      "button": {
+        "search": "検索",
+        "clear": "条件クリア"
+      }
+    },
+    "dataTable": {
+      "locationNum": {
+        "label": "ロケーション"
+      },
+      "showFullLocationNum": {
+        "label": "フル桁"
+      },
+      "ignoreLocation": {
+        "label": "除外"
+      },
+      "areaId": {
+        "label": "エリア"
+      },
+      "tableId": {
+        "label": "テーブル"
+      },
+      "branchNum": {
+        "label": "枝番"
+      },
+      "text": {
+        "label": "テキスト"
+      },
+      "fontSize": {
+        "label": "フォント\nサイズ"
+      },
+      "remarks": {
+        "label": "メモ"
+      },
+      "changingStatus": {
+        "label": "操作状態"
+      }
+    },
+    "operationModes": {
+      "label": "操作モード:",
+      "VIEW": "表示",
+      "EDIT": "編集"
+    },
+    "results": "検索結果 {{hits}} / {{total}} 件",
+    "totalCount": {
+      "open": "総数（",
+      "close": "）",
+      "countOfArea": "エリア:",
+      "countOfTable": "テーブル:",
+      "countOfLocation": "ロケーション:",
+      "countOfMissingNumber": "欠番:",
+      "countOfEmptyNumber": "空白:"
+    },
+    "bulkUpdate": {
+      "label": "一括変更",
+      "selectedColumn": "変更列",
+      "change": "変更"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "反映"
+    },
+    "ignoreLocationItems": {
+      "unselect": "",
+      "missingNumber": "欠番",
+      "emptyNumber": "空白"
+    }
+  },
+  "MapEditorNote": {
+    "title": "棚卸メモ",
+    "description": "",
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "反映"
+    }
+  },
+  "MapEditorPreference": {
+    "title": "環境設定",
+    "description": "",
+    "stageSize": {
+      "label": "ステージサイズ",
+      "width": "幅",
+      "height": "高さ",
+      "regulationSize": {
+        "label": "規定サイズ",
+        "verySmall": "極小/CvS（目安：100ロケまで）",
+        "small": "小（目安：300ロケまで）",
+        "medium": "中（目安：700ロケまで）",
+        "large": "大（目安：1000ロケまで）",
+        "extraLarge": "特大 (目安：1000ロケ超）"
+      },
+      "unit": "ピクセル"
+    },
+    "lattice": {
+      "label": "格子",
+      "visible": "表示",
+      "width": "幅",
+      "height": "高さ",
+      "unit": "ピクセル"
+    },
+    "ruler": {
+      "label": "ルーラー",
+      "visible": "表示"
+    },
+    "guide": {
+      "label": "ガイド",
+      "visible": "表示"
+    },
+    "screenCaptureRange": {
+      "label": "画面キャプチャ範囲",
+      "view": "表示範囲",
+      "stage": "ステージ"
+    },
+    "printSize": {
+      "label": "マップ PDF 用紙サイズ"
+    },
+    "length": {
+      "label": "桁数",
+      "areaId": "エリアID",
+      "tableId": "テーブルID",
+      "branchNum": "枝番",
+      "unit": "桁数"
+    },
+    "locationDisplayFormatType": {
+      "label": "表示用ロケーション書式",
+      "standard": "標準",
+      "custom": "カスタム",
+      "format": {
+        "label": "書式:",
+        "value": {
+          "STANDARD": "テーブルID ＋ 枝番"
+        }
+      },
+      "button": {
+        "formatSetting": "設定"
+      }
+    },
+    "defaults": {
+      "label": "初期値",
+      "fontSize": {
+        "label": "フォントサイズ",
+        "unit": "ピクセル",
+        "help": "エリアには適用されません"
+      }
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "反映"
+    },
+    "message": {
+      "error": {
+        "formatType": "テーブルIDの桁数と枝番の桁数の合計が {{maxLength}} 桁を超える場合は、カスタム書式を設定してください。",
+        "formatNotSet": "書式設定が未設定です。"
+      }
+    }
+  },
+  "MapEditorLocationDisplayFormatSetting": {
+    "title": "表示用ロケーション書式設定",
+    "description": "表示用ロケーション番号は {{maxLength}} 桁以下となるように設定してください。",
+    "selectId": {
+      "description": "以下の枠内にて、表示用ロケーション番号に利用する桁位置を選択してください。\n選択中の桁位置を再選択した場合、選択は解除されます。\n桁位置の下部に表示される数字は、選択した桁の利用（表示）順です。",
+      "legend": {
+        "tableId": "テーブルID",
+        "branchNum": "枝番"
+      }
+    },
+    "caution": {
+      "label": "注意",
+      "description": "変更を反映すると、既存の全てのロケーションに対して反映処理が実行されます。\nロケーション数が多い場合、この処理には時間がかかる場合があります。"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "OK"
+    },
+    "message": {
+      "error": {
+        "maxLength": "表示用ロケショーン番号の最大は {{maxLength}} 桁です。"
+      }
+    }
+  },
+  "MapEditorMapPdfOutput": {
+    "title": "PDF 出力",
+    "description": "作成する帳票の設定を確認の上、実行ボタンを押下してください。",
+    "outputMode": {
+      "label": "PDF 出力モード",
+      "inventory": "棚卸モード",
+      "statementOfDelivery": "納品モード"
+    },
+    "outputHeaderFooter": {
+      "label": "ヘッダー・フッター有無",
+      "output": "出力する"
+    },
+    "rotation": {
+      "label": "回転",
+      "right": "右回り",
+      "left": "左回り",
+      "none": "なし"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "実行"
+    }
+  },
+  "MapEditorLocationCsvOutput": {
+    "title": "CSV 出力",
+    "description": "作成する CSV に出力するロケーションのレイアウトを選択してください。",
+    "selectAll": {
+      "label": "全て選択"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "実行"
+    }
+  },
+  "InventoryOperationDateSearch": {
+    "title": "ロケーション比較用データ検索",
+    "condition": {
+      "jurisdictionClass": "管轄:",
+      "companyCode": "企業コード:",
+      "companyName": "企業名:",
+      "storeCode": "店舗コード:",
+      "storeName": "店舗名:",
+      "inventoryDate": "棚卸日:",
+      "button": {
+        "search": "検索",
+        "clear": "条件クリア"
+      }
+    },
+    "dataTable": {
+      "jurisdictionClass": {
+        "label": "管轄区分"
+      },
+      "companyCode": {
+        "label": "企業コード"
+      },
+      "companyName": {
+        "label": "企業名"
+      },
+      "storeCode": {
+        "label": "店舗コード"
+      },
+      "storeName": {
+        "label": "店舗名"
+      },
+      "inventoryDate": {
+        "label": "棚卸日",
+        "format": "YYYY-MM-DD"
+      },
+      "operation": {
+        "label": "選択"
+      }
+    },
+    "command": {
+      "cancel": "キャンセル",
+      "submit": "選択"
+    }
+  },
+  "MapEditorCompareLocationResult": {
+    "title": "ロケーション比較結果一覧",
+    "condition": {
+      "title": {
+        "new": "今回データ",
+        "old": "前回データ"
+      },
+      "jurisdictionClass": "管轄区分:",
+      "companyName": "企業:",
+      "storeName": "店舗:",
+      "inventoryDate": {
+        "label": "棚卸日:",
+        "format": "YYYY-MM-DD"
+      },
+      "locationCount": "ロケーション数:",
+      "discrepancies": "不一致:"
+    },
+    "dataTable": {
+      "rowNum": {
+        "label": "#"
+      },
+      "newAreaId": {
+        "label": "エリア"
+      },
+      "newLocationNum": {
+        "label": "ロケーション"
+      },
+      "oldAreaId": {
+        "label": "前回エリア"
+      },
+      "oldLocationNum": {
+        "label": "前回ロケーション"
+      }
+    }
+  },
+  "MapViewerPlanogram": {
+    "details": {
+      "dumpNo": "ダンプNo.",
+      "areaId": "エリア",
+      "locationNum": "ロケーション",
+      "shelf": "シェルフ",
+      "face": "フェイス",
+      "sku": "SKU",
+      "twoGradeBarcode": "2段バーコード",
+      "productName": "商品名",
+      "sellingPrice": "売価",
+      "quantity": "数量",
+      "facing": "フェイシング数",
+      "department": "部門",
+      "departmentName": "部門名",
+      "countTime": "カウント時間",
+      "employeeCode": "社員番号",
+      "updatedAt": {
+        "label": "更新日時",
+        "format": "YYYY-MM-DD HH:mm:ss"
+      }
+    },
+    "countData": "カウントデータ",
+    "planogramData": "棚割データ"
+  },
+  "MapViewerNote": {
+    "title": "棚卸メモ",
+    "description": "",
+    "button": {
+      "close": "閉じる"
+    }
+  },
+  "MapViewerPlanogramCsvUpload": {
+    "title": "棚割データ CSV 取込",
+    "description": "取り込み対象 CSV ファイルを設定してください。",
+    "csv": {
+      "label": "棚割データ",
+      "selectFile": "ファイル選択"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "submit": "アップロード"
+    },
+    "message": {
+      "error": {
+        "invalid": "設定内容に誤りがあります。\n内容を確認し、誤りを解消してください。",
+        "uploadFile": {
+          "notSet": "CSV ファイルを選択してください。"
+        }
+      },
+      "information": {
+        "completed": "アップロードしました。"
+      }
+    }
+  },
+  "MapViewerUnknownLocationList": {
+    "title": "レイアウトマップに存在しないロケーション一覧",
+    "dataTable": {
+      "areaId": {
+        "label": "エリア"
+      },
+      "locationNum": {
+        "label": "ロケーション"
+      }
+    },
+    "command": {
+      "close": "閉じる"
+    }
+  },
+  "MapEditorOtherShapeMenu": {
+    "subMenu": {
+      "wc": "トイレ",
+      "restArea": "休憩室",
+      "outlet": "電源"
+    }
+  },
+  "MapViewerMapPdfOutput": {
+    "title": "PDF 出力",
+    "description": "作成する帳票の設定を確認の上、実行ボタンを押下してください。\nリセットボタンを押下すると、エディタで保存した印刷設定を復元できます。",
+    "outputMode": {
+      "label": "PDF 出力モード",
+      "inventory": "棚卸モード",
+      "statementOfDelivery": "納品モード"
+    },
+    "outputHeaderFooter": {
+      "label": "ヘッダー・フッター出力有無",
+      "output": "出力する"
+    },
+    "rotation": {
+      "label": "回転",
+      "right": "右回り",
+      "left": "左回り",
+      "none": "なし"
+    },
+    "stageSize": {
+      "label": "ステージサイズ",
+      "width": "幅",
+      "height": "高さ",
+      "regulationSize": {
+        "label": "規定サイズ",
+        "verySmall": "極小/CvS（目安：100ロケまで）",
+        "small": "小（目安：300ロケまで）",
+        "medium": "中（目安：700ロケまで）",
+        "large": "大（目安：1000ロケまで）",
+        "extraLarge": "特大 (目安：1000ロケ超）"
+      },
+      "unit": "ピクセル"
+    },
+    "screenCaptureRange": {
+      "label": "画面キャプチャ範囲",
+      "view": "表示範囲",
+      "stage": "ステージ"
+    },
+    "printSize": {
+      "label": "マップ PDF 用紙サイズ"
+    },
+    "button": {
+      "cancel": "キャンセル",
+      "reset": "リセット",
+      "submit": "実行"
+    }
+  },
+  "MapViewerProductLocationSearch": {
+    "title": "商品ロケーション検索",
+    "condition": {
+      "productName": "商品名",
+      "sku": "SKU",
+      "twoGradeBarcode": "2段バーコード",
+      "button": {
+        "search": "検索",
+        "clear": "条件クリア"
+      },
+      "message": {
+        "notSet": "検索には条件が必須です。"
+      }
+    },
+    "dataTable": {
+      "productName": "商品名",
+      "sku": "SKU",
+      "twoGradeBarcode": "2段バーコード",
+      "areaId": "エリア",
+      "locationNum": "ロケーション",
+      "shelf": "シェルフ",
+      "face": "フェイス",
+      "layoutName": "レイアウト"
+    },
+    "results": "検索結果 {{hits}} 件",
+    "button": {
+      "searchResultClear": "検索結果クリア",
+      "close": "閉じる"
+    },
+    "countData": "カウントデータ",
+    "planogramData": "棚割データ"
+  }
+}

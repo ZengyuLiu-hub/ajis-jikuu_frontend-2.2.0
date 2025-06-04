@@ -1,0 +1,188 @@
+{
+  "name": "ajis-jikuu_frontend",
+  "version": "2.2.0",
+  "private": true,
+  "scripts": {
+    "generate-meta-tag": "node ./node_modules/react-cache-buster/dist/generate-meta-tag.js",
+    "prebuild": "npm run generate-meta-tag",
+    "build": "react-scripts build",
+    "build-storybook": "build-storybook -s public",
+    "clean": "rimraf build && rimraf coverage && npm cache clean --force && npm cache verify && rimraf node_modules && rimraf package-lock.json",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "ncu": "ncu --target minor",
+    "ncu:u": "ncu -u --target minor",
+    "audit": "npm audit --omit=dev",
+    "dedupe": "npm dedupe --omit=dev",
+    "start": "react-scripts start",
+    "start:ssl": "HTTPS=true SSL_CRT_FILE=$(mkcert -CAROOT)/localhost.pem SSL_KEY_FILE=$(mkcert -CAROOT)/localhost-key.pem react-scripts start",
+    "storybook": "storybook dev -p 6006",
+    "storybook:ssl": "storybook dev -p 6006 --https --ssl-cert \"$(mkcert -CAROOT)/localhost.pem\" --ssl-key \"$(mkcert -CAROOT)/localhost-key.pem\"",
+    "init-msw": "msw init public/",
+    "test": "react-scripts test --env=jsdom --silent --watchAll=false --passWithNoTests",
+    "test:coverage": "react-scripts test --silent --coverage --reporters=default --reporters=jest-junit --watchAll=false --passWithNoTests",
+    "zip": "npm-build-zip --info=true"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.6",
+    "classnames": "^2.5.1",
+    "connected-react-router": "^6.9.3",
+    "dayjs": "^1.11.12",
+    "history": "^5.3.0",
+    "i18next": "^23.12.2",
+    "jspdf": "^2.5.1",
+    "konva": "^9.3.14",
+    "ky": "^1.4.0",
+    "localforage": "^1.10.0",
+    "react": "~18.3.1",
+    "react-cache-buster": "^0.1.8",
+    "react-color": "^2.19.3",
+    "react-datepicker": "^7.3.0",
+    "react-dom": "~18.3.1",
+    "react-hook-form": "^7.52.1",
+    "react-i18next": "^15.0.0",
+    "react-konva": "~18.2.10",
+    "react-konva-utils": "^1.0.6",
+    "react-modal": "^3.16.1",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.8.0",
+    "react-spinners": "^0.14.1",
+    "react-virtualized": "^9.22.5",
+    "redux-localstorage-simple": "^2.5.1",
+    "styled-components": "^6.1.12",
+    "ts-pattern": "^5.2.0",
+    "typescript": "^5.5.4",
+    "uuid": "^10.0.0",
+    "web-vitals": "^4.2.2",
+    "workbox-background-sync": "^7.1.0",
+    "workbox-broadcast-update": "^7.1.0",
+    "workbox-cacheable-response": "^7.1.0",
+    "workbox-core": "^7.1.0",
+    "workbox-expiration": "^7.1.0",
+    "workbox-google-analytics": "^7.1.0",
+    "workbox-navigation-preload": "^7.1.0",
+    "workbox-precaching": "^7.1.0",
+    "workbox-range-requests": "^7.1.0",
+    "workbox-routing": "^7.1.0",
+    "workbox-strategies": "^7.1.0",
+    "workbox-streams": "^7.1.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.2/xlsx-0.20.2.tgz"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@storybook/addon-actions": "^8.2.6",
+    "@storybook/addon-essentials": "^8.2.6",
+    "@storybook/addon-interactions": "^8.2.6",
+    "@storybook/addon-links": "^8.2.6",
+    "@storybook/jest": "^0.2.3",
+    "@storybook/node-logger": "^8.2.6",
+    "@storybook/preset-create-react-app": "^8.2.6",
+    "@storybook/react": "^8.2.6",
+    "@storybook/react-webpack5": "^8.2.6",
+    "@storybook/testing-library": "^0.2.2",
+    "@storybook/types": "^8.2.6",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/classnames": "^2.3.1",
+    "@types/jest": "^29.5.12",
+    "@types/node": "~22.4.1",
+    "@types/react": "~18.3.3",
+    "@types/react-color": "^3.0.12",
+    "@types/react-dom": "~18.3.0",
+    "@types/react-modal": "^3.16.3",
+    "@types/react-redux": "^7.1.33",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-select": "^5.0.1",
+    "@types/react-virtualized": "^9.21.30",
+    "@types/styled-components": "^5.1.34",
+    "@types/uuid": "^10.0.0",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "babel-plugin-named-exports-order": "^0.0.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-storybook": "^0.8.0",
+    "husky": "^9.1.1",
+    "jest-junit": "^16.0.0",
+    "jsdom": "^24.1.1",
+    "lint-staged": "^15.2.7",
+    "mockdate": "^3.0.5",
+    "msw": "^2.3.4",
+    "msw-storybook-addon": "^2.0.3",
+    "npm-build-zip": "^1.0.4",
+    "postcss": "^8.4.40",
+    "postcss-loader": "^8.1.1",
+    "prettier": "^3.3.3",
+    "prop-types": "^15.8.1",
+    "rimraf": "^6.0.1",
+    "storybook": "^8.2.6",
+    "webpack": "^5.93.0"
+  },
+  "overrides": {
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.2/xlsx-0.20.2.tgz",
+    "glob-parent": "6.0.2",
+    "nth-check": "2.1.1",
+    "trim": "1.0.1",
+    "trim-newlines": "3.0.1",
+    "semver": "7.5.4",
+    "react-refresh": "0.11.0",
+    "resolve-url-loader": "5.0.0"
+  },
+  "jest-junit": {
+    "outputDirectory": "coverage",
+    "outputName": "junit.xml"
+  },
+  "jest": {
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "clover",
+      "cobertura"
+    ],
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/src/components",
+      "<rootDir>/src/constants",
+      "<rootDir>/src/containers",
+      "<rootDir>/src/modules",
+      "<rootDir>/src/selectors",
+      "<rootDir>/src/types",
+      "index.ts",
+      "reportWebVitals.ts",
+      "service-worker.ts",
+      "serviceWorkerRegistration.ts",
+      ".stories.tsx"
+    ]
+  }
+}

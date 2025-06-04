@@ -1,0 +1,46 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 22
+    commands:
+      - echo Install packages...
+      - npm install -g npm@10.8.2 typescript
+      - node -v
+      - npm -v
+      - npm ls -g typescript
+
+  pre_build:
+    commands:
+      - npm install
+
+  build:
+    commands:
+      - echo Build started on `date`
+      - npm run test:coverage
+      - npm run build
+
+  post_build:
+    commands:
+      - aws s3 rm s3://${ARTIFACT_BUCKET}/${ARTIFACT_PATH} --recursive
+      - echo Build completed on `date`
+
+reports:
+  jest_reports:
+    files:
+      - 'junit.xml'
+    file-format: 'JUNITXML'
+    base-directory: 'coverage'
+
+  cobertura-report:
+    files:
+      - 'cobertura-coverage.xml'
+    file-format: 'COBERTURAXML'
+    base-directory: 'coverage'
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'build'
+  discard-paths: no

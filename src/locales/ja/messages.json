@@ -1,0 +1,34 @@
+{
+  "information": {
+    "fileLoad": "{{param1}}\n\n上記ファイルを読み込みます。\nよろしいですか？",
+    "fileLoadComplete": "ファイルの読み込みが完了しました。"
+  },
+  "warning": {},
+  "error": {
+    "HTTP401": {
+      "authenticationFailed": "認証に失敗しました。",
+      "accessTokenExpired": "認証トークンの有効期限が切れています。\nログインし直してください。"
+    },
+    "HTTP403": {
+      "permissionFailed": "権限がありません。"
+    },
+    "HTTP500": {
+      "systemError": "予期せぬエラーが発生しました。\n管理者へご連絡ください。"
+    },
+    "HTTP502": {
+      "badGateway": "サーバとの通信に失敗しました。\n繰り返し発生する場合は、管理者へご連絡ください。"
+    },
+    "HTTP503": {
+      "serviceUnavailable": "サーバは現在利用出来ない状態です。"
+    },
+    "HTTP504": {
+      "gatewayTimeout": "サーバが時間以内に要求を受け付けませんでした。\n一時的にアクセスが集中している可能性があります。\nしばらくしてから再度実行してみてください。"
+    },
+    "timeout": "サーバ通信がタイムアウトしました。",
+    "connectionRefused": "サーバへの接続に失敗しました。",
+    "requiredMessage": "{{fieldName}} は入力必須です。",
+    "pageNotFound": "{{path}} は存在しないページです。",
+    "dataNotFound": "データが見つかりませんでした。",
+    "accessDenied": "権限がありません。"
+  }
+}

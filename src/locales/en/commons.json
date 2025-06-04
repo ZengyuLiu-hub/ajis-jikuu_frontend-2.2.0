@@ -1,0 +1,8 @@
+{
+  "enums": {
+    "MapStatus": {
+      "EDITING": "Editing",
+      "UPDATED": "Updated"
+    }
+  }
+}
