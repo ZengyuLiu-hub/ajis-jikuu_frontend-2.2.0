@@ -9,7 +9,7 @@ const subscribe = (callback: () => void) => {
     window.removeEventListener('storage', callback);
   };
 };
-
+// 認証トークン現在の値を返す
 // 認証トークン現在の値を返す
 const getCurrentToken = () =>
   localStorage.getItem(httpConstants.JWT_TOKEN_NAME);
